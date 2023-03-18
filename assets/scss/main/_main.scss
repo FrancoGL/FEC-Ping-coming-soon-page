@@ -6,12 +6,38 @@ main {
   color: color.$Gray;
   text-align: center;
 
-  .mark {
+  .mark, .main__subtitle {
     color: color.$Very-Dark-Blue;
   }
 
   .illustration-dashboard {
     width: 50%;
     height: 50%;
+  }
+
+  .form {
+
+    .input__container {
+      border: none;
+    }
+
+    .input {
+      padding: 0.5rem 1rem;
+      text-align: center;
+      border: 1px solid color.$Blue;
+      border-radius: 1.5rem;
+    }
+
+    .input:focus:invalid {
+      border: 1px solid color.$Light-Red;
+    }
+    
+    .error__message {
+      display: none;
+    }
+
+    .active {
+      display: block;
+    }
   }
 }

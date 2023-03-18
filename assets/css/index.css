@@ -32,12 +32,30 @@ main {
   color: hsl(0, 0%, 59%);
   text-align: center;
 }
-main .mark {
+main .mark, main .main__subtitle {
   color: hsl(209, 33%, 12%);
 }
 main .illustration-dashboard {
   width: 50%;
   height: 50%;
+}
+main .form .input__container {
+  border: none;
+}
+main .form .input {
+  padding: 0.5rem 1rem;
+  text-align: center;
+  border: 1px solid hsl(223, 87%, 63%);
+  border-radius: 1.5rem;
+}
+main .form .input:focus:invalid {
+  border: 1px solid hsl(354, 100%, 66%);
+}
+main .form .error__message {
+  display: none;
+}
+main .form .active {
+  display: block;
 }
 
 footer {
