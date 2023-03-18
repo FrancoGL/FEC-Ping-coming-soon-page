@@ -7,6 +7,7 @@ body {
   justify-items: center;
   align-items: center;
   font-size: 1.25rem;
+  font-family: "Libre Franklin", sans-serif;
 }
 
 img {
@@ -28,7 +29,11 @@ header .logo {
 main {
   grid-column: 1/2;
   grid-row: 2/3;
+  color: hsl(0, 0%, 59%);
   text-align: center;
+}
+main .mark {
+  color: hsl(209, 33%, 12%);
 }
 main .illustration-dashboard {
   width: 50%;
