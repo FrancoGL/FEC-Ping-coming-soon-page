@@ -34,10 +34,12 @@ main {
     
     .error__message {
       display: none;
+      margin-top: 1rem;
     }
 
     .active {
       display: block;
+      color: color.$Light-Red;
     }
   }
 }

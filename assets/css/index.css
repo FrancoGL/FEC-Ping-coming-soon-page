@@ -53,9 +53,11 @@ main .form .input:focus:invalid {
 }
 main .form .error__message {
   display: none;
+  margin-top: 1rem;
 }
 main .form .active {
   display: block;
+  color: hsl(354, 100%, 66%);
 }
 
 footer {
