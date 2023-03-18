@@ -1,4 +1,26 @@
+@use "../utils/colors" as color;
+
 footer {
+  margin-top: 2rem;
   grid-column: 1 / 2;
   grid-row: 3 / 4;
+
+  .social__media-container {
+
+    .social__media {
+      display: flex;
+      justify-content: space-evenly;
+      color: color.$Blue;
+    }
+
+    .copy {
+      text-align: center;
+      font-size: 1rem;
+    }
+  }
+
+  .attribution {
+    font-size: 1rem;
+    text-align: center;
+  }
 }
