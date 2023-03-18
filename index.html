@@ -38,8 +38,11 @@
       <h2 class="main__title">We are launching <span class="mark">soon!</span></h2>
       <p class="main__subtitle">Subscribe and get notified</p>
 
-      <form action="">
-        <input type="email" name="email" id="email" />
+      <form class="form" action="#">
+        <fieldset class="input__container">
+          <input class="input" type="email" name="email" id="email" placeholder="Your email address..." required/>
+          <span class="error__message">Please provide a valid email address</span>
+        </fieldset>
         <button type="submit">Notify Me</button>
       </form>
       <img class="illustration-dashboard"
@@ -61,5 +64,6 @@
         >. Coded by <a href="#">Your Name Here</a>.
       </p>
     </footer>
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>
