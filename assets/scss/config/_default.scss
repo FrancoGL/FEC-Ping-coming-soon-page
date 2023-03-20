@@ -20,6 +20,11 @@ header, main, footer {
 }
 
 @media screen and (min-width: 1024px) {
+
+  body {
+    gap: 1.5rem;
+  }
+
   header, main, footer {
     width: 30rem;
   }

@@ -20,6 +20,9 @@ header, main, footer {
 }
 
 @media screen and (min-width: 1024px) {
+  body {
+    gap: 1.5rem;
+  }
   header, main, footer {
     width: 30rem;
   }
@@ -33,6 +36,12 @@ header .logo {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 1024px) {
+  .logo {
+    width: 10%;
+    height: 10%;
+  }
+}
 main {
   grid-column: 1/2;
   grid-row: 2/3;
@@ -40,6 +49,8 @@ main {
   text-align: center;
 }
 main .main__title {
+  margin-top: 0;
+  font-weight: 300;
   font-size: 1.5rem;
 }
 main .main__subtitle {
@@ -47,6 +58,7 @@ main .main__subtitle {
   margin-bottom: 2rem;
 }
 main .mark, main .main__subtitle {
+  font-weight: bold;
   color: hsl(209, 33%, 12%);
 }
 main .form {
