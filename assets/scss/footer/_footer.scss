@@ -8,14 +8,29 @@ footer {
   .social__media-container {
 
     .social__media {
+      width: 70%;
+      margin: 0 auto;
       display: flex;
       justify-content: space-evenly;
       color: color.$Blue;
     }
 
+    .icon {
+      width: 30px;
+      height: 30px;
+      padding: 5px;
+      border: 1px solid color.$Blue;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
     .copy {
+      margin-top: 2rem;
       text-align: center;
       font-size: 1rem;
+      color: color.$Gray;
     }
   }
 

@@ -4,6 +4,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, auto);
+  gap: 3rem;
   justify-items: center;
   align-items: center;
   font-size: 1.25rem;
@@ -15,9 +16,17 @@ img {
 }
 
 header, main, footer {
-  width: 90%;
+  width: 21.094rem;
 }
 
+@media screen and (min-width: 1024px) {
+  body {
+    gap: 1.5rem;
+  }
+  header, main, footer {
+    width: 30rem;
+  }
+}
 header {
   grid-column: 1/2;
   grid-row: 1/2;
@@ -27,6 +36,12 @@ header .logo {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 1024px) {
+  .logo {
+    width: 10%;
+    height: 10%;
+  }
+}
 main {
   grid-column: 1/2;
   grid-row: 2/3;
@@ -34,6 +49,8 @@ main {
   text-align: center;
 }
 main .main__title {
+  margin-top: 0;
+  font-weight: 300;
   font-size: 1.5rem;
 }
 main .main__subtitle {
@@ -41,6 +58,7 @@ main .main__subtitle {
   margin-bottom: 2rem;
 }
 main .mark, main .main__subtitle {
+  font-weight: bold;
   color: hsl(209, 33%, 12%);
 }
 main .form {
@@ -55,7 +73,7 @@ main .form .input__container {
 main .form .input {
   display: block;
   width: calc(100% - 1rem);
-  padding: 0.5rem 0.5rem;
+  padding: 0.7rem 0.5rem;
   margin-bottom: 1rem;
   border: 1px solid hsl(223, 87%, 63%);
   border-radius: 1.5rem;
@@ -89,19 +107,53 @@ main .illustration-dashboard {
   margin-top: 4rem;
 }
 
+@media screen and (min-width: 1024px) {
+  main .main__title {
+    font-size: 2rem;
+  }
+  main .form {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  main .form .input__container {
+    width: 60%;
+  }
+  main .form .btn__submit {
+    width: 35%;
+  }
+  main .illustration-dashboard {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
 footer {
   margin-top: 2rem;
   grid-column: 1/2;
   grid-row: 3/4;
 }
 footer .social__media-container .social__media {
+  width: 70%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
   color: hsl(223, 87%, 63%);
 }
+footer .social__media-container .icon {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid hsl(223, 87%, 63%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 footer .social__media-container .copy {
+  margin-top: 2rem;
   text-align: center;
   font-size: 1rem;
+  color: hsl(0, 0%, 59%);
 }
 footer .attribution {
   font-size: 1rem;

@@ -4,6 +4,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, auto);
+  gap: 3rem;
   justify-items: center;
   align-items: center;
   font-size: 1.25rem;
@@ -15,5 +16,16 @@ img {
 }
 
 header, main, footer {
-  width: 90%;
+  width: 21.094rem;
+}
+
+@media screen and (min-width: 1024px) {
+
+  body {
+    gap: 1.5rem;
+  }
+
+  header, main, footer {
+    width: 30rem;
+  }
 }
