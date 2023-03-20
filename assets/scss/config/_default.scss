@@ -16,5 +16,11 @@ img {
 }
 
 header, main, footer {
-  width: 90%;
+  width: 21.094rem;
+}
+
+@media screen and (min-width: 1024px) {
+  header, main, footer {
+    width: 30rem;
+  }
 }
