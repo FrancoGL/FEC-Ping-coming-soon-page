@@ -4,6 +4,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, auto);
+  gap: 3rem;
   justify-items: center;
   align-items: center;
   font-size: 1.25rem;
@@ -95,13 +96,27 @@ footer {
   grid-row: 3/4;
 }
 footer .social__media-container .social__media {
+  width: 70%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
   color: hsl(223, 87%, 63%);
 }
+footer .social__media-container .icon {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid hsl(223, 87%, 63%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 footer .social__media-container .copy {
+  margin-top: 2rem;
   text-align: center;
   font-size: 1rem;
+  color: hsl(0, 0%, 59%);
 }
 footer .attribution {
   font-size: 1rem;
