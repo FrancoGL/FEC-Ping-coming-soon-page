@@ -24,7 +24,7 @@ header, main, footer {
     gap: 1.5rem;
   }
   header, main, footer {
-    width: 30rem;
+    width: 35rem;
   }
 }
 header {
@@ -121,6 +121,7 @@ main .illustration-dashboard {
   }
   main .form .btn__submit {
     width: 35%;
+    height: 2.713rem;
   }
   main .illustration-dashboard {
     margin: 0 auto;
