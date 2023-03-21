@@ -24,6 +24,13 @@ footer {
       display: flex;
       align-items: center;
       justify-content: center;
+      color: color.$Blue;
+      text-decoration: none;
+    }
+
+    .icon:hover {
+      background-color: color.$Blue;
+      color: color.$White;
     }
 
     .copy {

@@ -14,10 +14,12 @@ main {
 
   .main__subtitle {
     font-size: 1rem;
+    font-weight: 300;
+    color: color.$Very-Dark-Blue;
     margin-bottom: 2rem;
   }
 
-  .mark, .main__subtitle {
+  .mark{
     font-weight: bold;
     color: color.$Very-Dark-Blue;
   }
@@ -96,6 +98,11 @@ main {
       .btn__submit {
         width: 35%;
         height: 2.713rem;
+      }
+
+      .btn__submit:hover {
+        cursor: pointer;
+        filter: brightness(110%);
       }
     }
     .illustration-dashboard {
