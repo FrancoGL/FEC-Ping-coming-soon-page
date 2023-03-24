@@ -48,7 +48,7 @@ main {
       border: 1px solid color.$Light-Red;
     }
     
-    .error__message {
+    .error__message-one, .error__message-two {
       display: none;
       margin: 1rem 0;
       font-size: 1rem;
