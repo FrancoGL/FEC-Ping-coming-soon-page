@@ -14,6 +14,7 @@ $input.addEventListener("input",(e) => {
   
   if ($valid) {
     $errorMessageOne.classList.remove("active");
+    $errorMessageTwo.classList.remove("active")
   }
 } )
 
