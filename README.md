@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/ping-coming-soon-page-w_utTyY59N)
 - Live Site URL: [Live site with GitHub pages](https://francogl.github.io/FEMC-Ping-coming-soon-page/)
 
 ### Built with
