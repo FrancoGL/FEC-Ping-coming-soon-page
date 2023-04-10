@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](#)
-- Live Site URL: [Live site with GitHub pages](https://francogl.github.io/FMC-Ping-coming-soon-page/)
+- Live Site URL: [Live site with GitHub pages](https://francogl.github.io/FEMC-Ping-coming-soon-page/)
 
 ### Built with
 
